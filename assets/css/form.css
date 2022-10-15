@@ -1,0 +1,96 @@
+.label {
+    display: block;
+
+    color: var(--form-color);
+    font-weight: var(--font-pesada);
+
+    margin-top: -2.5rem;
+}
+
+.input {
+    background-color: #FFF;
+    height: 48px;
+    width: 54%;
+    position: absolute;
+
+    display: flex;
+
+    box-shadow: 8px 5px 8px 1px rgba(0, 0, 0, 0.61);
+
+    margin-top: 1rem;
+
+
+    
+}
+
+#email {
+    width: 702px;
+    height: 48px;
+
+    padding-left: 1rem;
+
+    box-sizing: border-box;
+
+    border: none;
+    
+    color: var(--text-form);
+    font-size: 1em;
+
+}
+
+.btn {
+
+    width: 48px;
+    height: 48px;
+
+    background-color: var(--bg-button-color);
+    border: none;
+
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #8862e2;
+}
+
+.link {
+    display: block;
+
+    color: var(--bg-button-color);
+    text-decoration: none;
+    
+    font-size: 1rem;
+
+    background-image: url(../img/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+
+
+    width: 170px;
+    
+}
+
+.link:hover {
+    color: #8862e2;
+    text-decoration: underline;
+}
+
+.load {
+    width: 30px;
+    height: 30px;
+
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
