@@ -4,11 +4,11 @@ const button = document.querySelector(".btn")
 
 
 const addLoadding = () => {
-  button.innerHTML = '<img class="load" src="assets/img/load.png" alt="Carregando">'
+  button.innerHTML = '<img class="load" src="./assets/img/load.png" alt="Carregando">'
 }
 
 const removeLoad = () => {
-  button.innerHTML = '<img src="assets/img/send.svg" alt="Seta para enviar o email">'
+  button.innerHTML = '<img src="./assets/img/send.svg" alt="Seta para enviar o email">'
 }
 
 const handleSubmit = event => {
